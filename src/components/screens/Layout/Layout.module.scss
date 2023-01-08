@@ -1,0 +1,32 @@
+@import '@assets/styles/variables.scss';
+
+$width-bar: 20%;
+
+.layout {
+	position: relative;
+	> div:first-child,
+	> div:last-child {
+		width: $width-bar;
+		position: fixed;
+		max-width: 350px;
+		top: 0;
+		bottom: 0;
+		padding: 30px;
+	}
+
+	> div:first-child {
+		left: 0;
+		border-right: 1px solid $gray800;
+		min-height: 100vh;
+	}
+	> div:last-child {
+		border-left: 1px solid $gray800;
+		min-height: 100vh;
+		right: 0;
+	}
+	.center {
+		min-height: 100vh;
+		margin: 0 $width-bar;
+		padding: 30px 0px 0px 0px;
+	}
+}

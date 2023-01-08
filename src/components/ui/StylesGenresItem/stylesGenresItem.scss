@@ -1,0 +1,50 @@
+@import '@assets/styles/variables';
+
+.container {
+	padding: 30px 0px 0px 0px;
+	.item {
+		display: flex;
+		margin: 0px 0px 20px 0px;
+		ul {
+			margin: 0px 0px 0px 20px;
+			li {
+				font-size: 20px;
+				color: white;
+				margin: 0px 0px 10px 0px;
+				span {
+					color: $gray600;
+				}
+			}
+			li:last-child {
+				pointer-events: none;
+			}
+		}
+	}
+}
+
+
+.itemContainer {
+	.title {
+		font-size: 24px;
+		color: white;
+		margin: 0px 0px 20px 0px;
+	}
+	.blockAbout {
+		display: flex;
+		margin: 0px 0px 20px 0px;
+		> ul {
+			margin: 0px 0px 0px 20px;
+		}
+	}
+
+	li {
+		font-size: 20px;
+		color: white;
+		margin: 0px 0px 10px 0px;
+	}
+}
+.titleListMovies {
+		font-size: 30px;
+		color: white;
+		margin: 0px 0px 20px 0px;
+}

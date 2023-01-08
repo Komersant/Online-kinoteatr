@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
+@import './variables';
+@import './libs/normalize';
+@import '@components/ui/StylesGenresItem/stylesGenresItem';
+
+html,
+body {
+	background-color: $bodyBG;
+	font-family: 'Nunito', sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		color-scheme: dark;
+	}
+	body {
+		color: $gray300;
+	}
+}

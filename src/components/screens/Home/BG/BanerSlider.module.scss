@@ -1,0 +1,40 @@
+.banerSliderWrapper {
+	margin: 0px 0px 20px 0px;
+	.title {
+		font-size: 28px;
+		color: white;
+		margin: 0px 0px 20px 0px;
+	}
+	.banerSliderContainer {
+		.swiperContainer {
+			.slide {
+				cursor: pointer;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				ul {
+					width: 100%;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					li {
+						width: 100%;
+						position: relative;
+						span {
+							font-size: 24px;
+							color: white;
+							position: absolute;
+							bottom: 20px;
+							left: 60px;
+						}
+					}
+					li:last-child {
+						color: white;
+						text-align: center;
+						font-size: 18px;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,34 @@
+@import '@assets/styles/variables.scss';
+
+.item {
+	&.active {
+		border-right: 3px solid $red;
+					span {
+					color: white;
+				}
+			svg {
+					color: $red;
+			}
+	}
+	font-size: 20px;
+	padding: 5px 0px;
+	margin: 0px 0px 10px 0px;
+	span {
+		padding: 0px 0px 0px 10px;
+	}
+	&:hover {
+		transition: color 0.3s ease 0s;
+		border-right: 3px solid $red;
+			span {
+					color: white;
+				}
+			svg {
+					color: $red;
+			}
+	}
+	a {
+		display: flex;
+		align-items: center;
+	}
+
+}

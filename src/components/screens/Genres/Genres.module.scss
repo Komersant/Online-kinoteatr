@@ -1,0 +1,33 @@
+.genres {
+	padding: 30px 0px 0px 0px;
+
+	ul {
+		display: flex;
+		justify-content: space-between;
+		gap: 10px;
+		.link {
+			overflow: hidden;
+			transition: all 0.3s ease 0s;
+			li {
+				position: relative;
+				cursor: pointer;
+				.image {
+					transform: scale(1);
+					&:hover {
+						transition: all 0.3s ease 0s;
+						transform: scale(1.05);
+					}
+				}
+
+				.title {
+					position: absolute;
+					bottom: 0px;
+					left: 50%;
+					color: white;
+					font-size: 30px;
+					transform: translate(-50%, -20%);
+				}
+			}
+		}
+	}
+}
